@@ -34,8 +34,13 @@
     "gif"
   ],
   "dependencies": {
-    "is-image": "^1.0.1",
-    "is-url": "^1.2.1",
-    "sync-request": "^4.0.2"
+    "is-image": "^3.1.0",
+    "is-url": "^1.2.4",
+    "sync-request": "^6.1.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/is-url": "^1.2.30",
+    "@types/node": "^18.7.16"
   }
 }
