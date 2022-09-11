@@ -1,46 +1,47 @@
 {
-  "name": "is-image-url",
-  "version": "1.1.9",
-  "description": "Check if a url is an image",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": {
-    "name": "wzbg",
-    "email": "z3530515@gmail.com"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wzbg/is-image-url"
-  },
-  "bugs": {
-    "url": "https://github.com/wzbg/is-image-url/issues"
-  },
-  "homepage": "https://github.com/wzbg/is-image-url#readme",
-  "keywords": [
-    "check",
-    "url",
-    "is",
-    "image",
-    "img",
-    "photo",
-    "pic",
-    "picture",
-    "jpg",
-    "jpeg",
-    "png",
-    "gif"
-  ],
-  "dependencies": {
-    "is-image": "^3.1.0",
-    "is-url": "^1.2.4",
-    "sync-request": "^6.1.0",
-    "url": "^0.11.0"
-  },
-  "devDependencies": {
-    "@types/is-url": "^1.2.30",
-    "@types/node": "^18.7.16"
-  }
+	"name": "is-image-url",
+	"version": "1.1.9",
+	"description": "Check if a url is an image",
+	"main": "build/index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": {
+		"name": "wzbg",
+		"email": "z3530515@gmail.com"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wzbg/is-image-url"
+	},
+	"bugs": {
+		"url": "https://github.com/wzbg/is-image-url/issues"
+	},
+	"homepage": "https://github.com/wzbg/is-image-url#readme",
+	"keywords": [
+		"check",
+		"url",
+		"is",
+		"image",
+		"img",
+		"photo",
+		"pic",
+		"picture",
+		"jpg",
+		"jpeg",
+		"png",
+		"gif"
+	],
+	"dependencies": {
+		"is-image": "^3.1.0",
+		"is-url": "^1.2.4",
+		"sync-request": "^6.1.0",
+		"url": "^0.11.0"
+	},
+	"devDependencies": {
+		"@types/is-url": "^1.2.30",
+		"@types/node": "^18.7.16"
+	}
 }
