@@ -39,7 +39,7 @@ export default function isImageUrl(url: string, accurate: boolean, timeout = 600
 			return false;
 		}
 
-		const res = request('GET', url, { timeout });
+		const res = request.default('GET', url, { timeout });
 
 		if (!res) {
 			return false;

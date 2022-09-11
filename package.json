@@ -5,7 +5,10 @@
 	"main": "build/index.js",
 	"type": "module",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"app": "tsc && node .",
+		"check": "tsc --noEmit && eslint . --cache --fix",
+		"build": "tsc",
+		"prepare": "npm run build"
 	},
 	"author": {
 		"name": "wzbg",
