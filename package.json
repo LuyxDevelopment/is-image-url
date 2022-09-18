@@ -45,6 +45,10 @@
 	},
 	"devDependencies": {
 		"@types/is-url": "^1.2.30",
-		"@types/node": "^18.7.16"
+		"@types/node": "^18.7.16",
+		"@typescript-eslint/eslint-plugin": "^5.37.0",
+		"@typescript-eslint/parser": "^5.37.0",
+		"eslint": "^8.23.1",
+		"typescript": "^4.8.3"
 	}
 }
