@@ -9,7 +9,7 @@
 		"lint": "eslint --cache --fix",
 		"check": "npm run lint && tsc --noEmit",
 		"start": "npm run lint && npm run build && node build/index.js"
-	}
+	},
 	"author": {
 		"name": "wzbg",
 		"email": "z3530515@gmail.com"
